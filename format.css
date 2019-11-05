@@ -1,0 +1,235 @@
+body{
+margin: 0px;
+padding: 0;
+
+font-family: 'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
+}
+
+
+
+/*resume id and info*/
+
+.about{
+
+padding-top: 100px;
+padding-bottom: 50px;
+
+
+
+}
+.about h5{
+
+font-size: 50px;
+
+}
+.about p{
+font-size: 20px;
+
+}
+.profile-img{
+
+    height: 500px;
+}
+.blog-img{
+
+    height: 400px;
+    
+}
+
+
+
+/*Resume*/
+
+
+.resume{
+padding-top :50px;
+padding-bottom: 30px;
+background: black;
+
+}
+.resume h4{
+    margin-bottom: 50px;
+    background-color: white;
+    color: black;
+}
+
+.resume p {
+    color: white;
+    font-size: 20px;
+}
+.resume h3{
+
+    color: white;
+}
+.picture p{
+
+    margin-top: 50px;
+height: 80px;
+
+}
+.picture2{
+
+    margin-top: 50px;
+    height: 80px;
+    
+}
+.picture{
+
+    margin-top: 50px;
+height: 80px;
+
+}
+
+.size{
+
+    font-size: 50px;
+}
+.backcolor{
+
+background-color: black;
+width: 100%;
+
+}
+
+.contact{
+
+    background: url(images/bg-footer.jpg)
+    no-repeat center center fixed;
+    
+        background-size: cover;
+     
+background-position: center;
+position: relative;
+min-width: 100%
+
+
+}
+.overlay{
+
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    right: 0;
+    background: rgb(0,0,0,0.6);
+    }
+   
+    /*contact footer*/
+    
+     .contact p{
+
+
+        color:white;
+
+
+     }
+     
+     .contact h3{
+
+ color:white;
+
+     }
+
+
+     /*learn more logo*/
+ .logo{
+
+    margin-top: auto;
+
+width: 20rem;
+
+     }
+    
+    
+     /*image hover*/
+     
+
+
+/*card effect*/
+.cardeffect img:hover{
+
+
+        -webkit-box-shadow: 10px 5px 4px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 4px rgba(0,0,0,0.5);
+box-shadow: 20px 20px 10px rgba(0,0,0,0.5);
+margin-bottom: 6px;
+    color: #fff;
+    background-color: white ; 
+        border: 1px solid black; 
+     }
+
+.cardeffect p{
+
+color: black;
+
+}
+.cardeffect p:hover{
+ 
+        -webkit-box-shadow: 10px 5px 4px rgba(0,0,0,0.5);
+-moz-box-shadow: 10px 10px 4px rgba(0,0,0,0.5);
+box-shadow: 20px 20px 10px rgba(0,0,0,0.5);
+margin-bottom: 6px;
+color: #fff;
+	background-color: black ;
+
+        border: 1px solid black; 
+
+ 
+  transition: 1s;
+}
+
+/*BLOG HEADER*/
+
+.blogfont p, h2{
+
+text-align: justify;
+margin-top: 1rem;
+margin-right: 1rem;
+
+
+}
+.blogfont p{
+
+    margin-left: 2rem;
+}
+.blogfont video{
+    margin-left: 2rem;
+}
+
+.pad i {
+
+  
+    text-align: center;
+margin-left: 2.5rem;
+margin-right: 2rem;
+margin-bottom: 2rem;
+}
+.author img{
+
+ 
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    
+}
+.navfont{
+font-size: 15px;
+
+}
+.card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+  
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    
+}
+#cardColor {
+    background-color: rgba(0,0,0,.03);
+}
+

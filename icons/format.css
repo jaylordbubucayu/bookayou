@@ -1,0 +1,211 @@
+body{
+margin: 0px;
+padding: 0;
+
+}
+
+
+
+
+.center{
+    text-align: center;
+margin: auto;
+font-size: 50px;
+color: black;
+
+}
+
+.left{
+text-align: left;
+margin: 25px;
+font-size: 20px;
+color: blue;
+}
+
+.font{
+
+    text-decoration-style: dashed;
+}
+#back{
+background: url(file:///C:/Users/userPC/Downloads/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg)
+no-repeat center center fixed;
+
+    background-size: cover;
+
+    animation : slide 20s infinite;
+
+
+
+
+}
+@keyframes slide {
+
+     55%{
+        background: url(file:///C:/Users/userPC/Downloads/lacie-slezak-yHG6llFLjS0-unsplash.jpg)
+        no-repeat center center fixed;
+        background-size: cover; 
+        
+     }
+     75%{
+        background: url(file:///C:/Users/userPC/Downloads/thought-catalog-o0Qqw21-0NI-unsplash.jpg)
+        no-repeat center center fixed;
+        background-size: cover; 
+     }
+     100%{
+        background: url(file:///C:/Users/userPC/Downloads/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg)
+        no-repeat center center fixed;
+        background-size: cover; 
+    }
+     }
+}
+
+
+
+
+.label{
+
+  
+    margin: 100px;
+    font-size: 20px;
+  
+
+}
+
+/*Course*/
+
+.pb-5, .py-5 {
+    padding-bottom: 2rem !important;
+
+}
+
+
+.card-body {
+    
+    padding: 0.5rem;
+}
+
+.card {
+    position: relative;
+  
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+
+
+}
+
+.navpic{
+
+
+    background: url(file:///D:/web4/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/navpic.jpg)
+}
+
+.about{
+
+padding-top: 100px;
+padding-bottom: 50px;
+
+
+
+}
+.about h5{
+
+font-size: 50px;
+
+}
+.about p{
+font-size: 20px;
+
+}
+.profile-img{
+
+    height: 500px;
+}
+
+/*Resume*/
+
+
+.resume{
+padding-top :50px;
+padding-bottom: 30px;
+background: black;
+
+}
+.resume h4{
+    margin-bottom: 50px;
+    background-color: white;
+    color: black;
+}
+
+.resume p {
+    color: white;
+    font-size: 20px;
+}
+.resume h3{
+
+    color: white;
+}
+.picture p{
+
+    margin-top: 50px;
+height: 80px;
+
+}
+.picture2{
+
+    margin-top: 50px;
+    height: 80px;
+    
+}
+.picture{
+
+    margin-top: 50px;
+height: 80px;
+
+}
+
+.size{
+
+    font-size: 50px;
+}
+.backcolor{
+
+background-color: black;
+width: 100%;
+
+}
+
+.contact{
+
+
+    background: url(file:///C:/Users/userPC/Downloads/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg)
+    no-repeat center center fixed;
+    
+        background-size: cover;
+     
+background-position: center;
+position: relative;
+min-width: 100%
+
+
+}
+.overlay{
+
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    right: 0;
+    background: rgb(0,0,0,0.6);
+    
+    
+     }
+     .contact p{
+
+
+     
+        color:white;
+
+
+     }
+     
+     
